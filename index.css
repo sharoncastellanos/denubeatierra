@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  background: linear-gradient(#4c0e6d, #030002);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, sans-serif;
+  text-align: center;
+}
+
+
+.titulo {
+  font-size: 2vw; 
+  max-width: 70%;
+  line-height: 1.2;
+}
+
+@media (max-width: 600px) {
+  .titulo {
+    font-size: 8vw;
+  }
+}

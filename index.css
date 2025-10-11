@@ -13,7 +13,7 @@ body {
 }
 
 
-.titulo {
+h1
   font-size: 2vw; 
   max-width: 70%;
   line-height: 1.2;
@@ -24,3 +24,4 @@ body {
     font-size: 8vw;
   }
 }
+

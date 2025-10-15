@@ -1,21 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Rayo Zigzag Loop</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="scene">
+    <div class="text" id="topText">DE NUBE</div>
 
-<!doctype html>
-<html lang="en">
-	<head>
-		<title>DE NUBE A TIERRA, DE TIERRA A NUBE</title>
-		<meta name="description" content="DE NUBE A TIERRA, DE TIERRA A NUBE">
-		<meta name="keywords" content="rayo, nube, tierra, cusco, peru, perú">
-		<meta name="viewport" content="width=1035">
-        <link rel="stylesheet" href="index.css">
-		
-	</head>
-	<body>
-         <h1>DE NUBE A TIERRA</h1>
+    <svg id="lightning" width="100" height="180">
+      <polyline
+        id="lightningPath"
+        points="0,0 20,25 0,50 20,75 0,100 20,125 0,150 20,175 0,200"
+        class="lightning-path"
+      />
+    </svg>
 
-	</body>
+    <div class="text" id="bottomText">A TIERRA</div>
+  </div>
 
+  <script src="script.js"></script>
+</body>
 </html>
-
 
 
 
